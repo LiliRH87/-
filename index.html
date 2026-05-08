@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бессмертный Полк | Челябинск</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/polk-icon.png" type="b">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- === ПРЕЛОАДЕР === -->
+    <!-- === ПРЕЛОАДЕР === -->
+    <div id="preloader">
+     <div class="preloader-content">
+         <!-- Обертка для левого лого -->
+         <div class="preloader-logo-wrapper">
+             <img src="img/Group.svg" alt="Логотип МИДИС" class="preloader-logo-img preloader-logo-left">
+         </div>
+         <!-- Разделитель -->
+         <span class="preloader-separator"></span>
+         <!-- Обертка для правого лого -->
+         <div class="preloader-logo-wrapper">
+             <img src="img/80_let.png" alt="80 лет Великой Победы" class="preloader-logo-img preloader-logo-right">
+         </div>
+     </div>
+ </div>
+ <!-- === КОНЕЦ ПРЕЛОАДЕРА === -->
+    <!-- === КОНЕЦ ПРЕЛОАДЕРА === -->
+
+    <div class="site-wrapper">
+     <header class="site-header">
+          <div class="container header-container">
+             <!-- Логотип МИДИС (слева) -->
+             <a href="index.html" class="logo-link">
+                 <img src="img/Group.svg" alt="Логотип МИДИС" class="logo">
+             </a>
+
+             <!-- Второе изображение (справа) -->
+             <a href="https://may9.ru/" class="logo-link" target="_blank" rel="noopener noreferrer"> <!-- Добавлены атрибуты для внешней ссылки -->
+                  <img src="img/80_let.png" alt="80 лет Великой Победы" class="logo header-logo-right">
+             </a>
+
+         </div>
+     </header>
+
+        <main>
+             <section class="hero-section">
+                <div class="hero-background"></div>
+                <div class="hero-overlay"></div>
+                <div class="container hero-content">
+                    <h1 class="hero-title animate-on-load fade-in-up">Бессмертный<br>полк</h1>
+                    <p class="hero-subtitle animate-on-load fade-in-up delay-1">МИДиС помнит своих героев</p>
+                </div>
+                 <a href="#intro" class="scroll-down-link animate-on-load fade-in-up delay-3" aria-label="Прокрутить вниз">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </a>
+            </section>
+
+            <section id="intro" class="intro-section container">
+                 <div class="intro-text-wrapper animate-on-scroll fade-in">
+                    <h2 class="section-subtitle">Память в каждом сердце</h2>
+                    <p>
+                        "Бессмертный полк" — это не просто акция, это живая река памяти, объединяющая миллионы людей по всему миру. Это личные истории наших дедов и прадедов, отстоявших мир в Великой Отечественной войне.
+                    </p>
+                    <p>
+                        На этом сайте мы собрали истории сотрудников и студентов МИДиС <br>об их родственниках, участвовавших в Великой Отечественной войне. <br> Помним. Знаем. Гордимся.
+                    </p>
+                </div>
+            </section>
+
+
+            <!-- Heroes Section -->
+            <section id="heroes" class="monuments-section"> 
+                <div class="container">
+                    <div class="section-header animate-on-scroll fade-in">
+                         <h2 class="section-subtitle"><span>Лица Победы</span></h2>
+                         <p class="section-description">Истории мужества, стойкости и любви к Родине тех, кто прошел Великую Отечественную войну.</p>
+                    </div>
+
+                    <!-- === ПОИСК ПО ИМЕНАМ === -->
+                    <div class="search-wrapper animate-on-scroll fade-in">
+                         <label for="hero-search" class="visually-hidden">Поиск по имени героя:</label>
+                         <input type="search" id="hero-search" name="hero-search" class="search-input" placeholder="Введите имя героя...">
+                         <!-- Иконка лупы -->
+                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                             <circle cx="11" cy="11" r="8"></circle>
+                             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                         </svg>
+                     </div>
+                    <!-- === КОНЕЦ ПОИСКА === -->
+
+                    <div class="monuments-grid" aria-live="polite">
+
+                        <!-- Карточки героев -->
+                        <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="Bludova_VA.html" class="card-link"> <div class="card-image-container">  <img src="img/Bludova_VA.jpg" alt="Блудова Валентина Александровна" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Блудова Валентина Александровна</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+                       </div>
+                      
+                       <div class="monument-card animate-on-scroll fade-in-up stagger">
+                        <a href="Bobin.html" class="card-link"> <div class="card-image-container"> <img src="img/Bobin.jpg" alt="Бобин Леонид Михайлович" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Бобин Леонид Михайлович</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+                   </div>
+
+                    <div class="monument-card animate-on-scroll fade-in-up stagger">
+                        <a href="Borodin_FI.html" class="card-link"> <div class="card-image-container"> <img src="img/Borodin_FI.jpg" alt="Бородин Фёдор Иннокентьевич" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Бородин Фёдор Иннокентьевич</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+                   </div>
+                  
+                   <div class="monument-card animate-on-scroll fade-in-up stagger">
+                    <a href="bruhovski.html" class="card-link"> <div class="card-image-container"> <img src="img/bruhovski.jpg" alt="Брюховских Владимир Георгиевич" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Брюховских Владимир Георгиевич</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+               </div>
+              
+               <div class="monument-card animate-on-scroll fade-in-up stagger">
+                <a href="vainshtein.html" class="card-link"> <div class="card-image-container"> <img src="img/vainshtein.jpg" alt="Вайнштейн Борис Владимирович" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Вайнштейн Борис Владимирович</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+           </div>
+          
+           <div class="monument-card animate-on-scroll fade-in-up stagger">
+            <a href="vasiltsov.html" class="card-link"> <div class="card-image-container"> <img src="img/vasiltsov.jpg" alt="Васильцов Алексей Николаевич" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Васильцов Алексей Николаевич</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+       </div>
+              
+       <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="GalstyanArtem.html" class="card-link"> <div class="card-image-container"> <img src="img/soldier.svg" alt="Галстян Артем Мкртичович" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Галстян Артем Мкртичович</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+       </div>
+
+        <!-- === ПЛЕЙСХОЛДЕРЫ (7 - 46) === -->
+
+
+
+         <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="GalstyanVazgen.html" class="card-link"> <div class="card-image-container placeholder-style"> <img src="img/soldier.svg" alt="Галстян Вазген Мкртичович" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Галстян Вазген Мкртичович</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+       </div>
+              <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="GalstyanOnik.html" class="card-link"> <div class="card-image-container placeholder-style"> <img src="img/soldier.svg" alt="Галстян Оник Мкртичович" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Галстян Оник Мкртичович</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+       </div>
+       <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="GalstyanSos.html" class="card-link"> <div class="card-image-container placeholder-style"> <img src="img/GalstyanSos.jpg" alt="Галстян Сос Мкртичович" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Галстян Сос Мкртичович</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+       </div>
+     
+
+       <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="danielenko.html" class="card-link">
+             <div class="card-image-container placeholder-style"> <img src="img/danielenko.jpg" alt="Даниленко Иван Афанасьевич
+                "loading="lazy"> </div>
+             <div class="card-content"> <h3 class="card-title">Даниленко Иван Афанасьевич
+            </h3> <span class="card-cta">Читать историю →</span> </div>
+         </a>
+       </div>
+       
+
+       <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="dolgopolov2.html" class="card-link">
+             <div class="card-image-container placeholder-style"> <img src="img/dolgopolov_egor_efremovich.jpg" alt="Долгополов Егор Ефремович" loading="lazy"> </div>
+             <div class="card-content"> <h3 class="card-title">Долгополов Егор Ефремович</h3> <span class="card-cta">Читать историю →</span> </div>
+         </a>
+       </div>
+               
+       <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="dolgopolov.html" class="card-link">
+             <div class="card-image-container placeholder-style"> <img src="img/dolgopolov_ivan_egorovich.jpg" alt="Долгополов Иван Егорович" loading="lazy"> </div>
+             <div class="card-content"> <h3 class="card-title">Долгополов Иван Егорович</h3> <span class="card-cta">Читать историю →</span> </div>
+         </a>
+       </div>
+     
+       <div class="monument-card animate-on-scroll fade-in-up stagger">
+        <a href="dolgopolova.html" class="card-link">
+             <div class="card-image-container placeholder-style"> <img src="img/dolgopolova_mariya_stepanovna.jpg" alt="Долгополова Мария Степановна" loading="lazy"> </div>
+             <div class="card-content"> <h3 class="card-title">Долгополова Мария Степановна</h3> <span class="card-cta">Читать историю →</span> </div>
+         </a>
+       </div>
+
+ <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="zagitov.html" class="card-link">
+                                <div class="card-image-container placeholder-style"> <img src="img/zagitov.jpg" alt="Загитов Рахим Мухаммедович" loading="lazy"> <div class="card-image-overlay"></div> </div>
+                                <div class="card-content"> <h3 class="card-title">Загитов Рахим Мухаммедович</h3> <span class="card-cta">Читать историю →</span> </div>
+                            </a>
+                        </div>
+
+                        <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="Kirillov_EK.html" class="card-link">
+                               <div class="card-image-container placeholder-style"> <img src="img/Kirillov_EK.jpg" alt="Кириллов Егор Константинович" loading="lazy"> </div>
+                               <div class="card-content"> <h3 class="card-title">Кириллов Егор Константинович</h3> <span class="card-cta">Читать историю →</span> </div>
+                           </a>
+                       </div>
+
+                        <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="kolchin.html" class="card-link">
+                               <div class="card-image-container placeholder-style"> <img src="img/kolchin.jpg" alt="Колчин Иван Алексеевич" loading="lazy"> </div>
+                               <div class="card-content"> <h3 class="card-title">Колчин Иван Алексеевич</h3> <span class="card-cta">Читать историю →</span> </div>
+                           </a>
+                       </div>
+
+                       <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="Koroleva_NA.html" class="card-link">
+                               <div class="card-image-container placeholder-style"> <img src="img/Koroleva_NA.jpg" alt="Королёва Нина Александровна" loading="lazy"> </div>
+                               <div class="card-content"> <h3 class="card-title">Королёва Нина Александровна</h3> <span class="card-cta">Читать историю →</span> </div>
+                           </a>
+                       </div>
+
+                        <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="krinicin.html" class="card-link">
+                               <div class="card-image-container placeholder-style"> <img src="img/soldier.svg" alt="Криницын Дмитрий Ильич" loading="lazy"> </div>
+                               <div class="card-content"> <h3 class="card-title">Криницын Дмитрий Ильич</h3> <span class="card-cta">Читать историю →</span> </div>
+                           </a>
+                       </div>
+                       <div class="monument-card animate-on-scroll fade-in-up stagger">
+                        <a href="lobanov_dmitry.html" class="card-link">
+                           <div class="card-image-container placeholder-style"> <img src="img/lobanov_dmitry.jpg" alt="Лобанов Дмитрий Иванович" loading="lazy"> <div class="card-image-overlay"></div> </div>
+                           <div class="card-content"> <h3 class="card-title">Лобанов Дмитрий Иванович</h3> <span class="card-cta">Читать историю →</span> </div>
+                       </a>
+                   </div>
+                    <div class="monument-card animate-on-scroll fade-in-up stagger">
+                        <a href="lobanov_leonty.html" class="card-link">
+                           <div class="card-image-container placeholder-style"> <img src="img/soldier.svg" alt="Лобанов Леонтий Иванович" loading="lazy"> </div>
+                           <div class="card-content"> <h3 class="card-title">Лобанов Леонтий Иванович</h3> <span class="card-cta">Читать историю →</span> </div>
+                       </a>
+                   </div>
+     
+                         <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="mussov.html" class="card-link">
+                                <div class="card-image-container placeholder-style"> <img src="img/mussov.jpg" alt="Муссов Наджмидин" loading="lazy"> <div class="card-image-overlay"></div> </div>
+                                <div class="card-content"> <h3 class="card-title">Муссов Наджмидин</h3> <span class="card-cta">Читать историю →</span> </div>
+                            </a>
+                        </div>
+
+                         <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="Nenashev_SN.html" class="card-link">
+                                <div class="card-image-container placeholder-style"> <img src="img/Nenashev_SN.jpg" alt="Ненашев Сергей Никитьевич" loading="lazy"> <div class="card-image-overlay"></div> </div>
+                                <div class="card-content"> <h3 class="card-title">Ненашев Сергей Никитьевич</h3> <span class="card-cta">Читать историю →</span> </div>
+                            </a>
+                        </div>
+                       
+                        <div class="monument-card animate-on-scroll fade-in-up stagger">
+                            <a href="Pankov.html" class="card-link"> <div class="card-image-container placeholder-style"> <img src="img/Pankov.jpg" alt="Панков Александр Алексеевич" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Панков Александр Алексеевич</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+                       </div>
+
+                       <div class="monument-card animate-on-scroll fade-in-up stagger">
+                        <a href="Petpasev.html" class="card-link"> <div class="card-image-container placeholder-style"><img src="img/Petpasev.jpg" alt="Петряшев Пётр Васильевич" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Петряшев Пётр Васильевич</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+                   </div>
+
+                       <div class="monument-card animate-on-scroll fade-in-up stagger">
+                        <a href="pyanzin.html" class="card-link"> <div class="card-image-container placeholder-style"><img src="img/pyanzin.png" alt="Пьянзин Иван Семенович" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Пьянзин Иван Семенович</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+                   </div>
+
+                   <div class="monument-card animate-on-scroll fade-in-up stagger">
+                    <a href="slucki.html" class="card-link"> <div class="card-image-container placeholder-style"> <img src="img/soldier.svg" alt="Слуцкий Шлём Алтарьевич" loading="lazy"> </div> <div class="card-content"> <h3 class="card-title">Слуцкий Шлём Алтарьевич</h3> <span class="card-cta">Читать историю →</span> </div> </a>
+               </div>
+                         <div class="monument-card animate-on-scroll fade-in-up stagger">
+                             <a href="chernoshatov.html" class="card-link">
+                                <div class="card-image-container placeholder-style"> <img src="img/chernoshtanov_pavel_stepanovich.jpg" alt="Черноштанов Павел Степанович" loading="lazy"> </div>
+                                <div class="card-content"> <h3 class="card-title">Черноштанов Павел Степанович</h3> <span class="card-cta">Читать историю →</span> </div>
+                            </a>
+                        </div>
+
+                       
+                                             
+                        
+                       <!-- === Конец добавленных плейсхолдеров === -->
+
+                    </div> <!-- /monuments-grid -->
+
+                    <!-- Кнопка "Показать еще" -->
+                    <button id="show-more-btn" class="show-more-button" type="button">
+                        Показать еще
+                    </button>
+
+                </div> <!-- /container -->
+            </section>
+        </main>
+
+        <footer class="site-footer">
+             <div class="container footer-container">
+                <div class="footer-logo">
+                     <img src="img/Group.svg" alt="Логотип МИДИС" class="logo">
+                     <span>Международный Институт<br>Дизайна и Сервиса</span>
+                </div>
+                <div class="footer-credits">
+                    <p>Руководитель проекта: Хаятова Л.Р.</p>
+                    <p>Проект выполняли студенты-программисты 1 курса СПО</p>
+                    <p>Frontend by: <br>
+                         Жариков Арсений<br>
+                         Крюков Кирилл
+                    </p>
+                  
+                    <p>© <span id="current-year"></span> Все права защищены</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- /site-wrapper -->
+</body>
+</html>
